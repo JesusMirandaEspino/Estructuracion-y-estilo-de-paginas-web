@@ -1,0 +1,17 @@
+{
+  "name": "semana2",
+  "version": "1.0.0",
+  "description": "Examen Semana 2 Estructuracion y estilos de paginas web",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "keywords": [
+    "kuepa",
+    "ingenieria",
+    "html",
+    "web"
+  ],
+  "author": "Jose de Jesus Miranda Espino",
+  "license": "ISC"
+}
