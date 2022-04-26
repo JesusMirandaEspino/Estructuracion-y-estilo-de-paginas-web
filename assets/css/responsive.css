@@ -1,3 +1,5 @@
+
+
 @charset "UTF-8";
 
 /************************************************************/
@@ -35,13 +37,43 @@ flex-wrap: wrap;
 	padding:0%;
 }
 
+tbody{
+    display: flex;
+    width:100%;
+    flex-direction: column;
+}
+
+
+thead{
+    display: flex;
+    width:600px;
+    flex-direction: column;
+}
+
+tr, th{
+    display: flex;
+    width:100%;
+}
+
+td{
+    display: flex;
+    justify-content:center;
+    width:50%;
+    flex-wrap: wrap;
+	margin:0%;
+	padding:0%;
+}
+
 div[class*="col-"]{
-    /*background-color: lightpink;*/
     display: flex;
     justify-content:center;
     flex-wrap: wrap;
 	margin:0%;
 	padding:0%;
+}
+
+a, ul, li{
+    margin:12px auto !important;
 }
 
 /************************************************************/
@@ -228,3 +260,5 @@ div[class*="col-"]{
     .col-full-12 {flex: 0 1 100%;}
 
 }
+
+

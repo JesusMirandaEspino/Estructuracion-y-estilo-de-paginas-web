@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "..\\semana1"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"eslint.enable": false,
+		"jshint.enable": false,
+		"standard.enable": false
+	}
+}
