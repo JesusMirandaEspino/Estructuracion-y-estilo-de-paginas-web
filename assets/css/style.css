@@ -1,0 +1,166 @@
+a:active {
+    outline: none;
+}
+
+
+.hobbies img{
+    width:80%;
+}
+
+.hobbies li{
+    margin: 21px auto !important;
+    text-align: center;
+}
+
+.hobbies h4{
+    font-size: 21px;
+    margin-top: 12px;
+}
+
+
+.title-hobbies h1{
+    font-size: 30px;
+    margin: 18px auto;
+}
+
+
+
+.title-IDE{
+    font-size: 30px;
+    margin: 18px auto;
+}
+
+
+.list-IDE li{
+    margin: 21px auto;
+}
+
+
+.list-IDE a{
+    cursor: pointer;
+    margin: 24px auto;
+    transition: all ease 0.3s;
+}
+
+.list-IDE a:hover{
+    color:brown;
+}
+
+
+.title-estados{
+    font-size: 30px;
+    margin: 30px auto !important;
+}
+
+.head-table{
+    margin: 21px auto;
+    text-align: center;
+    font-size:21px;
+    display: flex;
+    width:80%;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+
+.rows-table{
+    margin:12px auto ;
+    padding: 12px;
+}
+
+
+.rows-basic{
+    margin:6px auto ;
+    padding:6px;
+    width:80%;
+    border: #014D57 solid 1px;
+}
+
+
+.rows-basic td{
+    margin: 6px;
+    
+}
+
+
+.table{
+    width:80%;
+    padding:12px;
+    border-radius: 12px;
+    border: #014D57 solid 2px;
+}
+
+
+
+.title-formulario{
+    font-size: 30px;
+    margin: 30px auto !important;
+}
+
+
+form{
+    max-width: 500px;
+    min-width: 350px;
+    margin:auto;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-shadow: 2px 2px 10px 12px rgba(0,0,0,0.75);
+    border-radius: 6px;
+}
+
+
+input{
+    width:80%;
+    border: none;
+    border-bottom: #014D57 solid 2px;
+    margin-bottom: 18px;
+}
+
+label{
+    margin-top: 30px;
+}
+
+
+button{
+    border-radius: 6px;
+    border: #014D57 solid 2px;
+    padding:6px 12px;
+    margin: 30px auto;
+    transition:all ease 0.3s;
+}
+
+
+button:hover{
+    color: #ffffff;
+    background-color: #014D57;
+
+}
+
+footer{
+    margin-top: 50px !important;
+}
+
+.link-repositorio{
+    margin:auto 50px;
+    font-size: 27px;
+    transition:all ease 0.3s;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.link-repositorio:hover{
+    color: #014D57;
+
+}
+
+
+a, a:active, a:focus{
+        outline: none; /* Works in Firefox, Chrome, IE8 and above */ 
+    }
