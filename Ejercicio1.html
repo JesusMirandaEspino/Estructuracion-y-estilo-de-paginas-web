@@ -33,6 +33,40 @@
 <!-- **************************  -->
     <header class="fila">
 
+        <!-- Esto es considerado una mala practica  -->
+        <style>
+            *{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            table{
+                border-radius: 12px;
+            }
+
+            thead{
+                background-color:#1292A3;
+                color: #ffffff;
+            }
+
+            .rows-basic:nth-child(even){
+                color:#015727;
+            }
+
+            .rows-basic:nth-child(odd){
+                color:#1292A3 !important;
+            }
+
+            .rows-basic:last-child{
+                color:#A30D00!important;
+            }
+
+            .last-fila{
+                border:#014D57 solid 4px;
+            }
+
+
+        </style>
+
         <section  class="contenedor">
             <div class="col-full-12" >
                 <h1 class="title-estados" >Los Estados de México</h1>
@@ -226,7 +260,7 @@
                     <td>Puebla de Zaragoza</td>
                 </tr>
 
-                <tr class="rows-basic">
+                <tr class="rows-basic last-fila">
                     <td>Quintana Roo</td>
                     <td>Chetumal</td>
                 </tr>
@@ -250,6 +284,12 @@
         <section class="contenedor1">
             <div class="col-full-12" >
                 <a class="link-repositorio" href="https://github.com/JesusMirandaEspino/Estructuracion-y-estilo-de-paginas-web" target="_blank">Repositorio</a>
+            </div>
+        </section>
+
+        <section class="contenedor1">
+            <div class="col-full-12" >
+                <a class="link-repositorio" href="https://jesusmiranda.netlify.app/" target="_blank">Mi Sitio Web</a>
             </div>
         </section>
 
